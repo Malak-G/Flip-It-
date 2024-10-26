@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="jsc.js" defer></script>
+    <title>Memory Card Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="logo" height="270px">
+        <h1>MEMORY CARD GAME</h1>
+        <a href="#game-container" id="new-game-button">New Game?</a>
+    </header>
+ 
+    <section id="game-container" class="hidden">
+        <section id="game">
+            <div id="game-card-1" class="game-card">
+                <figure class="front"></figure>
+                <figure class="back"></figure>
+            </div>
+            <div id="game-card-2" class="game-card">
+                <figure class="front"></figure>
+                <figure class="back"></figure>
+            </div>
+            <div id="game-card-3" class="game-card">
+                <figure class="front"></figure>
+                <figure class="back"></figure>
+            </div>
+            <div id="game-card-4" class="game-card">
+                <figure class="front"></figure>
+                <figure class="back"></figure>
+            </div>
+            <div id="game-card-5" class="game-card">
+                <figure class="front"></figure>
+                <figure class="back"></figure>
+            </div>
+            <div id="game-card-6" class="game-card">
+                <figure class="front"></figure>
+                <figure class="back"></figure>
+            </div>
+            <div id="game-card-7" class="game-card">
+                <figure class="front"></figure>
+                <figure class="back"></figure>
+            </div>
+            <div id="game-card-8" class="game-card">
+                <figure class="front"></figure>
+                <figure class="back"></figure>
+            </div>
+            <div id="game-card-9" class="game-card">
+                <figure class="front"></figure>
+                <figure class="back"></figure>
+            </div>
+            <div id="game-card-10" class="game-card">
+                <figure class="front"></figure>
+                <figure class="back"></figure>
+            </div>
+            <div id="game-card-11" class="game-card">
+                <figure class="front"></figure>
+                <figure class="back"></figure>
+            </div>
+            <div id="game-card-12" class="game-card">
+                <figure class="front"></figure>
+                <figure class="back"></figure>
+            </div>
+        </section>
+        <section id="score-board">
+            <div class="score low-score">Best Score: N/A</div>
+            <div class="score click-count">Total Clicks: 0</div>
+        </section>
+        <div id="win-screen" class="hidden">
+            <h3> 🎊 Nailed It! 🎊 </h3>
+            <div class="score click-count">Total Clicks: 0</div>
+            <div class="score low-score">Best Score: N/A</div>
+            <a id="replay-button">Play Again?</a>
+        </div>
+    </section>
+</body>
+</html>
